@@ -1,0 +1,20 @@
+?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CalculatorUI" parent="Theme.MaterialComponents.Dark.NoActionBar"/>
+
+    <style name="CalcBtn">
+        <item name="android:background">@color/btn_dark</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CalcBtnRed">
+        <item name="android:background">@color/btn_dark</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="CalcBtnEqual">
+        <item name="android:background">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
