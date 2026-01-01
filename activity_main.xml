@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- DISPLAY -->
+    <TextView
+        android:id="@+id/display"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:gravity="end"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- BUTTON GRID -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_marginTop="16dp">
+
+        <!-- ROW 1 -->
+        <Button android:text="C" style="@style/CalcBtnRed"/>
+        <Button android:text="/" style="@style/CalcBtnRed"/>
+        <Button android:text="*" style="@style/CalcBtnRed"/>
+        <Button android:text="-" style="@style/CalcBtnRed"/>
+
+        <!-- ROW 2 -->
+        <Button android:text="7" style="@style/CalcBtn"/>
+        <Button android:text="8" style="@style/CalcBtn"/>
+        <Button android:text="9" style="@style/CalcBtn"/>
+        <Button android:text="+" style="@style/CalcBtnRed"/>
+
+        <!-- ROW 3 -->
+        <Button android:text="4" style="@style/CalcBtn"/>
+        <Button android:text="5" style="@style/CalcBtn"/>
+        <Button android:text="6" style="@style/CalcBtn"/>
+        <Button android:text="=" style="@style/CalcBtnEqual"/>
+
+        <!-- ROW 4 -->
+        <Button android:text="1" style="@style/CalcBtn"/>
+        <Button android:text="2" style="@style/CalcBtn"/>
+        <Button android:text="3" style="@style/CalcBtn"/>
+        <Button android:text="0" style="@style/CalcBtn"/>
+
+    </GridLayout>
+
+</LinearLayout>
